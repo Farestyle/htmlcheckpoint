@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Practice</title>
+</head>
+<body>
+    <h1>Different Input</h1>
+    <form>
+        <!-- Text Inputs -->
+        <label for="text-input">Text:</label>
+        <input type="text" id="text-input" name="text-input" placeholder="Enter text here"><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com"><br><br>
+
+        <!-- Number Input -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" min="1" max="100"><br><br>
+
+        <!-- Date Input -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Are you</p>
+        <input type="radio" id="option1" name="options" value="Option 1">
+        <label for="option1">Married</label><br>
+        <input type="radio" id="option2" name="options" value="Option 2">
+        <label for="option2">Single</label><br><br>
+
+        <!-- Checkboxes -->
+        <p>Choose your interests:</p>
+        <input type="checkbox" id="interest1" name="interests" value="Coding">
+        <label for="interest1">Coding</label><br>
+        <input type="checkbox" id="interest2" name="interests" value="Music">
+        <label for="interest2">Music</label><br>
+        <input type="checkbox" id="interest3" name="interests" value="Sports">
+        <label for="interest3">Sports</label><br><br>
+
+        <!-- Select Dropdown -->
+        <label for="color">Favorite Color:</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue" selected>Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select><br><br>
+        <input type="color" name="color">if not select it<input>
+        <br><br>
+
+
+
+        <!-- File Input -->
+        <label for="file-upload">Upload a file:</label>
+        <input type="file" id="file-upload" name="file-upload"><br><br>
+
+        <!-- Range Input -->
+        <label for="volume">What's your level of english?:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100"><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
